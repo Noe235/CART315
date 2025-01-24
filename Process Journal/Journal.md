@@ -13,7 +13,7 @@ _italics_
 
 ## January 23rd - Make a thing
 
-#### Thoughts about Twine and using Twine as my engine
+#### Thoughts about Twine and using Twine as an engine
 - I want to take advantage of the fact that it is mostly 
 imagination and written.
 - trying to make the hyperlink not too clunky ? and try 
