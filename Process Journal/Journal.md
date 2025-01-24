@@ -35,8 +35,9 @@ conventionally
 
 #### playtest-ish feedback
 
-reading is long lmao
-someone who finished it and knew about mythology liked the idea of helping someone in communication
-More hints of what the mural and story mean since it wasn’t too obvious
-People used the back around immediately, maybe making a save to go back or take advantage of it. People would go back with that arrow instead of setting up something.
-People doesn't stay on the death screen too long, so if there is a timed even,t don’t make it too long
+- reading is long lmao 
+- someone who finished it and knew about mythology 
+- liked the idea of helping someone in communication 
+- More hints of what the mural and story mean since it wasn’t too obvious 
+- People used the back around immediately, maybe making a save to go back or take advantage of it. People would go back with that arrow instead of setting up something. 
+- People doesn't stay on the death screen too long, so if there is a timed even,t don’t make it too long
