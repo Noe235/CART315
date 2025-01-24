@@ -1,13 +1,15 @@
 # Process Journal
 **Reminders**
 
-![thisis a photo of exys] (media/location.jpg)
+![this is a photo of xys](Media/stick-bug-get-stickbugged-lol.gif)
 
 [this is a link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 **bold**
+
 _italics_
-[project for class today]{Projects/README.md)
+
+[project for class today](//Projects/README.md)
 
 ## January 23rd - Make a thing
 
@@ -18,7 +20,6 @@ imagination and written.
   and integrate it.
 - maybe dive into a possible idea for a future project in 
   this class?
-
 
 #### Ideas/concepts
 1. A blind detective or someone that does not see well 
@@ -31,8 +32,6 @@ conventionally
    - Someone in trouble and only communication grounded in 
      real life ( basically a puzzle game but with additional steps and a proxy.)
    - log of a crew or something that is increased making you on the edge of your seat ( so just a book but instead a making it “electronic”)
-
-
 
 #### playtest-ish feedback
 
