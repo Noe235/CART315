@@ -9,7 +9,7 @@
 
 _italics_
 
-[project for class today](//Projects/README.md)
+[project for class today](//Projects/Journal.md)
 
 ## January 23rd - Make a thing
 
