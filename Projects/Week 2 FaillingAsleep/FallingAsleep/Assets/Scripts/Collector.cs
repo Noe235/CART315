@@ -18,11 +18,16 @@ public class Collector : MonoBehaviour
         7.2f };
     public int myPos = 2; //correspond to the array position 
 
+        public AudioSource pickupSoundSource;
 
+        public AudioClip[] mySounds;
+        
+        
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-  
+        score = 0;
+
 
     }
 
@@ -53,7 +58,7 @@ public class Collector : MonoBehaviour
             Destroy(other.gameObject);
             score += 1;
             UpdateScore();
-            
+            PlaySound();
         }
     }
 
@@ -67,7 +72,14 @@ public class Collector : MonoBehaviour
     private void UpdateScore()
     {
         scoreText.text ="Score: " + score.ToString();
-        GetComponent<TextMeshProUGUI>().SetText(scoreText.text);
+   
       
+    }
+
+    private void PlaySound()
+    {
+        Debug.Log("Play sound");
+        AudioClip ActiveSound = mySounds[UnityEngine.Random.Range(0, mySounds.Length)];
+        AudioSource.PlayClipAtPoint(ActiveSound, this.transform.position);
     }
 }

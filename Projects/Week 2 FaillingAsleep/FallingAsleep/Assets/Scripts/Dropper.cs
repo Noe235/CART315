@@ -28,8 +28,8 @@ public class Dropper : MonoBehaviour
         Vector3 Loc = new Vector3(xPosition, 6, 0);
         Instantiate(Circle, Loc, transform.rotation);
         //wait
-        float next = Random.Range(0.25f, 1.5f);
-        yield return new WaitForSeconds(0.5f);
+        float next = Random.Range(0.5f, 2.5f);
+        yield return new WaitForSeconds(0.8f);
         //go again
         StartCoroutine(routineDrop());
         
