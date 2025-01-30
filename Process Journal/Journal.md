@@ -67,3 +67,28 @@ _**REMINDER FOR NOE**_ <br>
 if you have a number with points, and you have this error <br>
 ``Cannot convert expression of type 'double' to type 'float'`` <br>
 you need to put “f” at the end of the number to tell it its a float still
+
+### Process
+Lots of random error that I am not even sure why it happened <br>
+Errors like: 
+- ``Null reference type``
+- ``Cannot acess a non-static method``
+- ``Play OneShot``
+
+The rest was alright, I had forgotten how to acess a array but got my 
+friend to help me out.<br>
+I found some nice assets on Craftpix to give a bit of personality to the 
+little exercise. +the sound effects were not too hard to implement <br>
+II kind of see this as a little game that each row does a sound and hten you 
+can make some music or have it randomized and making some non-sripted music 
+but still sounding good. <br>
+I did use the pentatonic scale on C3 to get some notes that would not sound 
+dissonant from one another.<br>
+
+### Future implementations
+Possible implementations that I would like or center around something
+- Making random prefabs that would be chosen to fall down.
+- attaching the note to the line that it is falling from.
+- making or finding a minecart sprite
+- adding bg music to have the notes have a bg
+- adding start and end state
