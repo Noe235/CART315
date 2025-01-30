@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Dropper : MonoBehaviour
 {
-    public GameObject circle;
+    public GameObject Circle;
+    readonly float[] allPositions = new float[] { -7.2f, -3.6f,0f, 3.6f, 
+        7.2f };
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,10 +22,11 @@ public class Dropper : MonoBehaviour
    private IEnumerator routineDrop()
     {
         //do somehting
-        Debug.Log("Drop");
-        float rX = Random.Range(-6.0f, 6.0f);
-        Vector3 Loc = new Vector3(rX, 6, 0);
-        Instantiate(circle, Loc, transform.rotation);
+        int rX = Random.Range(0,4);
+        float xPosition = allPositions[rX];
+        
+        Vector3 Loc = new Vector3(xPosition, 6, 0);
+        Instantiate(Circle, Loc, transform.rotation);
         //wait
         float next = Random.Range(0.25f, 1.5f);
         yield return new WaitForSeconds(0.5f);

@@ -1,39 +1,49 @@
 using System;
+using TMPro;
+using Unity.Burst.CompilerServices;
 using UnityEditor.Tilemaps;
 using UnityEngine;
-using UnityEngine.UIElements; 
+using UnityEngine.UIElements;
+using UnityEngine.UI;
+
 
 public class Collector : MonoBehaviour
 {
-    public float xLoc, yLoc;
-
-    public float bedSpeed = 1.5f;
+    public TMP_Text scoreText;
+    public float xLoc = 0;
+    public int score = 0;
     
+    
+    readonly float[] allPositions = new float[] { -7.2f, -3.6f,0f, 3.6f, 
+        7.2f };
+    public int myPos = 2; //correspond to the array position 
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-      xLoc = 0;
-      yLoc = 0;
+  
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.A))
+        
+        if (Input.GetKeyDown(KeyCode.LeftArrow)&& myPos > 0)
         {
-            Debug.Log("Left");
-            xLoc-= bedSpeed;
-        }
-        if (Input.GetKey(KeyCode.D))
+            
+           myPos -= 1;
+         UpdatePositions();
+        } 
+        else if (Input.GetKeyDown(KeyCode.RightArrow)&& myPos < 4)
         {
-            Debug.Log("Right");
-            xLoc+= bedSpeed;
+            
+            myPos += 1;
+        UpdatePositions();
         }
 
-        this.transform.position = new Vector3(
-            xLoc, 
-            yLoc, 
-            0);
+       
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -41,6 +51,23 @@ public class Collector : MonoBehaviour
         if (other.gameObject.tag == "Circle")
         {
             Destroy(other.gameObject);
+            score += 1;
+            UpdateScore();
+            
         }
+    }
+
+    private void UpdatePositions()
+    {
+        this.xLoc = allPositions[myPos];
+        // Update the position
+        this.transform.position = new Vector3(xLoc, this.transform.position.y, this.transform.position.z);
+    }
+
+    private void UpdateScore()
+    {
+        scoreText.text ="Score: " + score.ToString();
+        GetComponent<TextMeshProUGUI>().SetText(scoreText.text);
+      
     }
 }
