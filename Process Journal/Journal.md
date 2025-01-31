@@ -44,6 +44,7 @@ conventionally
 
 
 ## January 30rd
+[This week's project](https://github.com/Noe235/CART315/tree/main/Projects/Week%202%20FaillingAsleep/FallingAsleep) <br>
 
 Idea for a collector type of game. 
 Ideas:
@@ -75,12 +76,12 @@ Errors like:
 - ``Cannot acess a non-static method``
 - ``Play OneShot``
 
-The rest was alright, I had forgotten how to acess a array but got my 
+The rest was alright, I had forgotten how to access a array but got my 
 friend to help me out.<br>
 I found some nice assets on Craftpix to give a bit of personality to the 
 little exercise. +the sound effects were not too hard to implement <br>
-II kind of see this as a little game that each row does a sound and hten you 
-can make some music or have it randomized and making some non-sripted music 
+I kind of see this as a little game that each row does a sound and ten you 
+can make some music or have it randomized and making some non-scripted music 
 but still sounding good. <br>
 I did use the pentatonic scale on C3 to get some notes that would not sound 
 dissonant from one another.<br>
@@ -92,3 +93,26 @@ Possible implementations that I would like or center around something
 - making or finding a minecart sprite
 - adding bg music to have the notes have a bg
 - adding start and end state
+
+### Class
+Feedback tips for future journal entry
+- use EZGIF to add some gif and take photos of the process <br>
+Which reminds me I should have put that as a byproduct of not being able to 
+  use playoneshot, I used playatthispoint and got a slight pan on the sound<br>
+
+Prototypes kind
+- look/feel
+  - non functional really just to show
+- roles
+  - user flow, kickstarter videos
+- implementation
+  - really trying how it feel while being functional. <br>
+
+Prototype goals
+
+- to understand
+- to communicate
+- 
+
+**all to answer a question**
+
