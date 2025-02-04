@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PaddleScript : MonoBehaviour {
-    private float     yPos;
+    private float     xPos;
     public float      paddleSpeed = .02f;
 
-    public KeyCode    upKey,downKey;
+    public KeyCode    leftKey,rightKey;
 
-    public float      topWall, bottomWall;
+    public float      leftWall,rightWall;
     // Start is called before the first frame update
     void Start() {
   
@@ -17,15 +17,15 @@ public class PaddleScript : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetKey(downKey) && yPos >= bottomWall) {
-                yPos -= paddleSpeed;
+        if (Input.GetKey(leftKey) && xPos >= leftWall) {
+                xPos -= paddleSpeed;
         }
 
-        if (Input.GetKey(upKey) && yPos <= topWall) {
-                yPos += paddleSpeed;
+        if (Input.GetKey(rightKey) && xPos <= rightWall) {
+                xPos += paddleSpeed;
         }
 
-        transform.localPosition = new Vector3(transform.position.x, yPos, 0);
+        transform.localPosition = new Vector3(xPos,transform.position.y,0);
     }
 }
 

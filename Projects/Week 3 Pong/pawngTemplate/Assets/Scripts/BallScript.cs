@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-//using System;
+
 
 
 
@@ -9,15 +9,17 @@ public class BallScript : MonoBehaviour
 {
     
    
-    public int score1, score2 = 0;
+    public int score = 0 ;
     public float ballSpeed = 10;
 
     private int[] direction ={-1, 1};
     private int hDir, vDir;
     private Rigidbody2D rb;
     public AudioSource BallSound;
-    
-    
+
+    public float maxDist;
+    public GameObject Player1;
+    public GameObject Player2;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,7 +32,7 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       checkDistance(); 
     }
     
     private IEnumerator launchBall()
@@ -69,20 +71,16 @@ public class BallScript : MonoBehaviour
     {
         Debug.Log(wall.gameObject.name);
         
-        if (wall.gameObject.name == "leftWall")
+        if (wall.gameObject.name == "bottomWall")
         {
             
             Debug.Log("bang");
-            //give point ot play 2
-            score2++;
+            //give point to play 2
+            score--;
             resetBall();
         }
-        if (wall.gameObject.name == "rightWall")
-        {
-            score1++;
-            resetBall();
-        }
-        if (wall.gameObject.name == "topWall" || wall.gameObject.name == "bottomWall")
+       
+        if (wall.gameObject.name == "topWall" || wall.gameObject.name == "leftWall" || wall.gameObject.name =="rightWall")
         {
             BallSound.pitch = 0.75f;
             BallSound.Play();
@@ -92,6 +90,17 @@ public class BallScript : MonoBehaviour
         {
             BallSound.pitch = 1f;
             BallSound.Play();
+            score++;
+        }
+    }
+
+    void checkDistance()
+    {
+        float currentDist = Vector2.Distance(Player1.transform.position, Player2.transform.position);
+
+        if (currentDist > maxDist)
+        {
+            
         }
     }
 }

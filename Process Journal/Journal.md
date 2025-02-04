@@ -116,3 +116,35 @@ Prototype goals
 
 **all to answer a question**
 
+## Feb 4th
+### ideation
+I was thinking about games like it takes two and chained together as a pon 
+variant where you would work together. So with this in mind I was looking of 
+how to make a rope that would constraint the players as I can think how I 
+can constraint the player with most likely some math to calculate the 
+distance and put a maximum to to but I wasn't sure how to illustrated it. So 
+I found this video and I am using the rope bridge part but without the 
+capsule collider so I can show visually if they are too far. <br>
+
+![games](Media/Chained.webp)
+
+![gameFred](Media/breadandfred.jpg)
+
+Video used:
+
+[Rope video/physics?](https://www.youtube.com/watch?v=iGlD3f-5JpA)
+
+[checking distance between points](https://www.youtube.com/watch?v=VpK2NgmddkQ)
+
+### Problems/ what left to do
+- I can't figure out how I am going to attach the rope to the object
+- I don't know how one I have reached the max distance i'll make the person 
+  be able to not go further but still to move toward the other player
+- Link the score to a text
+- maybe add color or sound?
+- maybe add end screen and restart
+- add high score?
+
+I discovered the magic of joints and hinge though. They seem really useful 
+to know about just not fully sure I understand how to make them work with an 
+object that is not static.
