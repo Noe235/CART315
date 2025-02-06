@@ -116,7 +116,7 @@ Prototype goals
 
 **all to answer a question**
 
-## Feb 4th
+## Feb 4th-6th
 ### ideation
 I was thinking about games like it takes two and chained together as a pon 
 variant where you would work together. So with this in mind I was looking of 
@@ -150,8 +150,23 @@ to know about just not fully sure I understand how to make them work with an
 object that is not static.
 
 Alright change of plan we are making a who can hit hte ball the most and 
-seperating the screen in two. I cahnged idea since I couldn't do the chain 
+seperating the screen in two. I changed idea since I couldn't do the chain 
 and I didn't want to go back to the same orignal game.
 
-I wantto add some ball to appear over time but for now everything works so 
+I want to add some ball to appear over time but for now everything works so 
 I'll add it after commit
+
+tiny problem the score are on the balls, but its fixed I got the middle wall 
+to have the scoring script that access the variable of each ball to then put 
+the scores together, there is defenitly a better way to do this but since I 
+don't have much time nad we kind of already know we fucked up by putting 
+everything on the ball we knew that its wasn't that efficient.
+
+### possible improvements 
+- add a game over screen maybe with lives
+- OMG THE SPEED OF THE PADDLE CHANGES WITH SCREEN SIZE, probably do something 
+  about that
+- add that more ball will spawn over time, could have been possible but 
+  would need to rearrange some components and make new scripts.
+
+![ponggame](Media/Ponggame.gif)
