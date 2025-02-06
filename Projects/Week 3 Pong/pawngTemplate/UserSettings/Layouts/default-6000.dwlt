@@ -69,8 +69,8 @@ MonoBehaviour:
     y: 0
     width: 303
     height: 941
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 384
     height: 615
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 694
+    y: 639
     width: 1616
     height: 300
   m_SerializedDataModeController:
@@ -385,7 +385,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 84700000
     m_LastClickedID: 28804
-    m_ExpandedIDs: 000000001e7000006875000000ca9a3b
+    m_ExpandedIDs: 000000008e70000090700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -414,7 +414,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001e700000
+    m_ExpandedIDs: 000000008e70000090700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -494,8 +494,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1617
-    y: 79
+    x: 1618
+    y: 24
     width: 302
     height: 915
   m_SerializedDataModeController:
@@ -545,7 +545,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79
+    y: 24
     width: 383
     height: 589
   m_SerializedDataModeController:
@@ -562,8 +562,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 02fbffff
-      m_LastClickedID: -1278
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 5ac5ffff02fbffff0efbffff10fbffffbc6f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -611,8 +611,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 384
-    y: 79
+    x: 385
+    y: 24
     width: 1231
     height: 589
   m_SerializedDataModeController:

@@ -148,3 +148,10 @@ Video used:
 I discovered the magic of joints and hinge though. They seem really useful 
 to know about just not fully sure I understand how to make them work with an 
 object that is not static.
+
+Alright change of plan we are making a who can hit hte ball the most and 
+seperating the screen in two. I cahnged idea since I couldn't do the chain 
+and I didn't want to go back to the same orignal game.
+
+I wantto add some ball to appear over time but for now everything works so 
+I'll add it after commit

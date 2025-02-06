@@ -4,15 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PaddleScript : MonoBehaviour {
-    private float     xPos;
+    public float     xPos;
     public float      paddleSpeed = .02f;
 
     public KeyCode    leftKey,rightKey;
 
     public float      leftWall,rightWall;
+
     // Start is called before the first frame update
     void Start() {
-  
+
     }
 
     // Update is called once per frame

@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-
+using TMPro;
 
 
 
@@ -8,8 +8,8 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     
-   
-    public int score = 0 ;
+    public TMP_Text player1Score, player2Score;
+    public int score1,score2 = 0 ;
     public float ballSpeed = 10;
 
     private int[] direction ={-1, 1};
@@ -17,9 +17,8 @@ public class BallScript : MonoBehaviour
     private Rigidbody2D rb;
     public AudioSource BallSound;
 
-    public float maxDist;
-    public GameObject Player1;
-    public GameObject Player2;
+    public float startPos;
+   
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,11 +31,11 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       checkDistance(); 
     }
     
     private IEnumerator launchBall()
     {
+        yield return new WaitForSeconds(1f);
         //choose random X direction, Y
         hDir = direction[Random.Range(0, direction.Length)];
       
@@ -51,9 +50,6 @@ public class BallScript : MonoBehaviour
         
         //wait for X seconds
         
-        yield return new WaitForSeconds(1f);
-
-      
         
     }
 
@@ -61,46 +57,60 @@ public class BallScript : MonoBehaviour
     {
         //reset to 0,0
         rb.linearVelocity = Vector2.zero;
+        transform.position = new Vector2(startPos, 0);
         //launch
         
         StartCoroutine("launchBall");
     }
-    
+
+    private void updateScore()
+    {
+        player1Score.text ="Player 1 Score: " + score1.ToString();
+        player2Score.text ="Player 2 Score: " + score2.ToString();
+    }
     
     private void OnCollisionEnter2D(Collision2D wall)
     {
         Debug.Log(wall.gameObject.name);
         
-        if (wall.gameObject.name == "bottomWall")
+        if (wall.gameObject.name == "bottom1Wall")
         {
             
-            Debug.Log("bang");
             //give point to play 2
-            score--;
+            score2++;
+            updateScore();
             resetBall();
         }
-       
-        if (wall.gameObject.name == "topWall" || wall.gameObject.name == "leftWall" || wall.gameObject.name =="rightWall")
+
+        if (wall.gameObject.name == "bottom2Wall")
+        {
+            score1++;
+            updateScore();
+            resetBall();
+        }
+
+        if (wall.gameObject.name == "topWall" || wall.gameObject.name == "leftWall" || wall.gameObject.name == "rightWall" || wall.gameObject.name == "middleWall") 
         {
             BallSound.pitch = 0.75f;
             BallSound.Play();
         }
 
-        if (wall.gameObject.name == "paddleLeft" || wall.gameObject.name == "paddleRight")
+        if (wall.gameObject.name == "paddleLeft")
         {
             BallSound.pitch = 1f;
             BallSound.Play();
-            score++;
+            score1++;
+            updateScore();
         }
-    }
-
-    void checkDistance()
-    {
-        float currentDist = Vector2.Distance(Player1.transform.position, Player2.transform.position);
-
-        if (currentDist > maxDist)
+        
+        if (wall.gameObject.name == "paddleRight")
         {
-            
+            BallSound.pitch = 1f;
+            BallSound.Play();
+            score2++;
+            updateScore();
         }
     }
+
+   
 }
