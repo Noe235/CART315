@@ -117,6 +117,8 @@ Prototype goals
 **all to answer a question**
 
 ## Feb 4th-6th
+[This week's project Pong](https://github.com/Noe235/CART315/tree/main/Projects/Week%203%20Pong/pawngTemplate)  <br> 
+
 ### ideation
 I was thinking about games like it takes two and chained together as a pon 
 variant where you would work together. So with this in mind I was looking of 
@@ -168,5 +170,15 @@ everything on the ball we knew that its wasn't that efficient.
   about that
 - add that more ball will spawn over time, could have been possible but 
   would need to rearrange some components and make new scripts.
+- sometime the ball gets stuck horizontally
 
 ![ponggame](Media/Ponggame.gif)
+
+### Class
+
+push error: 
+- 1 if the original files are different and were not pulled
+- push fail because of too big file: bottom right git icon, you can undo it 
+- third party is for asset store and things oyu don't want to share
+
+bit trip beat
