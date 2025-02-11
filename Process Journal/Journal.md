@@ -182,3 +182,18 @@ push error:
 - third party is for asset store and things oyu don't want to share
 
 bit trip beat
+
+
+## Feburay 11th
+### ideation
+I have no clue for this week.... ngl I don't really fell like starting to 
+code diffrent bricks that still not be used again so I am thinking.... <br>
+I geuss maybe like the other way aroung where you owuld play as the brick 
+and you want to dodge the ball that are coming at you. I could make the 
+space moving in 2d than just one axis.<br>
+... maybe I can put that there is two paddles that are playing adn oyu have 
+to dodge it. I wonder if I can make the paddle move by itself to try and get 
+the ball... maybe through a update that tracks the ball and move the paddle 
+toward the x direction that the ball is like if get hte position of the ball 
+and go toward it with a random number and make it move every either random 
+or set number.

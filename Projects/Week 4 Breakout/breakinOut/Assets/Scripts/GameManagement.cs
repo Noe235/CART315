@@ -42,8 +42,8 @@ public class GameManagement : MonoBehaviour
         SceneManager.LoadScene("GameOver");
     }
 
-    public void AddPoints() {
-        points += 1;
+    public void AddPoints(int pointValue) {
+        points += pointValue;
     }
     
    // public void AddPoints(int pointValue) {
