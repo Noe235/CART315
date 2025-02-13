@@ -49,7 +49,7 @@ public class BreakoutBall_working : MonoBehaviour
     public void Reset() {
         rb.linearVelocity = Vector2.zero;
         ballSpeed = 2;
-        transform.position = new Vector2(0, 0);
+        transform.position = new Vector2(0, -1);
         gameRunning = false;
     }
     

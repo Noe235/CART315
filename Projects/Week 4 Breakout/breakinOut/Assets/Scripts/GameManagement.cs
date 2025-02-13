@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameManagement : MonoBehaviour
 {
 
     public GameObject paddle;
+    public TextMeshProUGUI livesText;
 
     public int points = 0;
     public int lives = 3;
@@ -32,6 +34,7 @@ public class GameManagement : MonoBehaviour
     public void LoseLife()
     {
         lives -= 1;
+        livesText.text = "Lives: " + lives;
 
         if (lives <= 0) GameOver();
     }

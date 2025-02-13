@@ -27,7 +27,6 @@ public class BrickLayer : MonoBehaviour
                 
                 Instantiate(brick, new Vector3(xPos, yPos, 0), transform.rotation,this.transform);
                 
-                
                 nbbrick++;
             }
         }

@@ -152,15 +152,15 @@ to know about just not fully sure I understand how to make them work with an
 object that is not static.
 
 Alright change of plan we are making a who can hit hte ball the most and 
-seperating the screen in two. I changed idea since I couldn't do the chain 
-and I didn't want to go back to the same orignal game.
+separating the screen in two. I changed idea since I couldn't do the chain 
+and I didn't want to go back to the same original game.
 
 I want to add some ball to appear over time but for now everything works so 
 I'll add it after commit
 
 tiny problem the score are on the balls, but its fixed I got the middle wall 
 to have the scoring script that access the variable of each ball to then put 
-the scores together, there is defenitly a better way to do this but since I 
+the scores together, there is definitely a better way to do this but since I 
 don't have much time nad we kind of already know we fucked up by putting 
 everything on the ball we knew that its wasn't that efficient.
 
@@ -187,8 +187,8 @@ bit trip beat
 ## Feburay 11th
 ### ideation
 I have no clue for this week.... ngl I don't really fell like starting to 
-code diffrent bricks that still not be used again so I am thinking.... <br>
-I geuss maybe like the other way aroung where you owuld play as the brick 
+code different bricks that still not be used again so I am thinking.... <br>
+I guess maybe like the other way around where you would play as the brick 
 and you want to dodge the ball that are coming at you. I could make the 
 space moving in 2d than just one axis.<br>
 ... maybe I can put that there is two paddles that are playing adn oyu have 
@@ -197,3 +197,12 @@ the ball... maybe through a update that tracks the ball and move the paddle
 toward the x direction that the ball is like if get hte position of the ball 
 and go toward it with a random number and make it move every either random 
 or set number.
+
+### feb 12th
+I added the UI added a menu screen and hooked them all up with the game, 
+menu and the game over.
+
+I am debating between just doing the break out game as it is or try to 
+modify it into a different kind of game.
+
+![breakout](Media/breakout1.png)
