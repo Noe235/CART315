@@ -206,3 +206,7 @@ I am debating between just doing the break out game as it is or try to
 modify it into a different kind of game.
 
 ![breakout](Media/breakout1.png)
+
+So I lied, I didn't work more on it, so here's the result for this week
+I also added random colors to bricks
+![breakout2](Media/breakout2.gif)
