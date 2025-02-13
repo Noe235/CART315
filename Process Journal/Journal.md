@@ -185,6 +185,8 @@ bit trip beat
 
 
 ## Feburay 11th
+[Breakout project](https://github.com/Noe235/CART315/tree/main/Projects/Week%204%20Breakout/breakinOut)
+
 ### ideation
 I have no clue for this week.... ngl I don't really fell like starting to 
 code different bricks that still not be used again so I am thinking.... <br>
@@ -199,13 +201,16 @@ and go toward it with a random number and make it move every either random
 or set number.
 
 ### feb 12th
+
+
 I added the UI added a menu screen and hooked them all up with the game, 
 menu and the game over.
 
 I am debating between just doing the break out game as it is or try to 
 modify it into a different kind of game.
 
-![breakout](Media/breakout1.png)
+
+![breakout](Media/breakout1.PNG)
 
 So I lied, I didn't work more on it, so here's the result for this week
 I also added random colors to bricks
