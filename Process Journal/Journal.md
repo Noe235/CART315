@@ -219,6 +219,7 @@ I also added random colors to bricks
 
 #### Feburary 19th-20th
 
+[Procedural excersise](https://github.com/Noe235/CART315/tree/main/Projects/Week%205%20Procedural/Procedural%20Generation)
 I don't really have any idea for expanding on the breakout game from last 
 week. Instead I will just make a new project and follow a ytb tutorial about 
 a topic that will help me in game. I was thinking either some procedural 
@@ -226,9 +227,26 @@ generation or AI enemy behavior. I think both of are useful to know how to
 code or understand how they work.
 
 I have coded a procedural generation before but it didn't really work well 
-so I would like to give it a shot once again, epically since I like 
+so I would like to give it a shot once again, espically since I like 
 rogue-like and replayability in games
 
 I decided on this tutorial series [Procedural generation](https://www.youtube.com/playlist?list=PLcRSafycjWFenI87z7uZHFv6cUG2Tzu9v)
 
-![procedural gif](Media/Procedural1.gif) 
+![procedural gif](Media/Procedural1.gif)
+
+
+#### Feburary 20th
+I made a generation with corridors as the turorial continues. Now the 
+corridors are generated and the rooms are added. I started 
+doing a generation based on splitting the zone into rooms to generate rooms 
+and them.
+
+I think I learned quite a lot form the tutorial, I used argurment I have 
+never used before such a HashSet, reference to object like xyz.Add or 
+UnionWith. I laos think I better understand getting function and variables 
+form different script and how to use return more. I briefly touched on the 
+tilemap but I know at least it exist and how to acces them. And finally I 
+understood how the generation is created and what it is checking for or how 
+it goes along a path.
+
+![procedural gif2](Media/Procedural2.gif)
