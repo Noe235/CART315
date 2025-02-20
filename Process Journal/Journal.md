@@ -215,3 +215,20 @@ modify it into a different kind of game.
 So I lied, I didn't work more on it, so here's the result for this week
 I also added random colors to bricks
 ![breakout2](Media/breakout2.gif)
+
+
+#### Feburary 19th-20th
+
+I don't really have any idea for expanding on the breakout game from last 
+week. Instead I will just make a new project and follow a ytb tutorial about 
+a topic that will help me in game. I was thinking either some procedural 
+generation or AI enemy behavior. I think both of are useful to know how to 
+code or understand how they work.
+
+I have coded a procedural generation before but it didn't really work well 
+so I would like to give it a shot once again, epically since I like 
+rogue-like and replayability in games
+
+I decided on this tutorial series [Procedural generation](https://www.youtube.com/playlist?list=PLcRSafycjWFenI87z7uZHFv6cUG2Tzu9v)
+
+![procedural gif](Media/Procedural1.gif) 
