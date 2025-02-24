@@ -14,8 +14,7 @@ public static class ProceduralGenerationAlgorithms
         var previousPosition = startPosition;
 
         for (int i = 0; i < walkLength; i++) {
-            var newPosition = previousPosition +
-                              Direction2D.GetRandomCardinalDirection();
+            var newPosition = previousPosition + Direction2D.GetRandomCardinalDirection();
             path.Add(newPosition);
             previousPosition = newPosition;
 
@@ -63,7 +62,7 @@ public static class ProceduralGenerationAlgorithms
                     else  if (room.size.y >= minHeight * 2) {
                         SplitHorizontally(minHeight, roomsQueue, room);
                     }
-                    else {
+                    else if (room.size.x >= minWidth * 2 && room.size.y >= minHeight) {
                         roomsList.Add(room);
                     }
                 }
@@ -74,7 +73,7 @@ public static class ProceduralGenerationAlgorithms
 
     private static void SplitVertically(int minWidth, Queue<BoundsInt> roomsQueue, BoundsInt room) {
         var xSplit = Random.Range(1, room.size.x);
-        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(xSplit, room.min.y, room.min.z));
+        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(xSplit, room.size.y, room.size.z));
         BoundsInt room2 = new BoundsInt(new Vector3Int(room.min.x + xSplit, room.min.y, room.min.z),
             new Vector3Int(room.size.x-xSplit, room.min.y, room.size.z));
         roomsQueue.Enqueue(room1);
@@ -103,6 +102,6 @@ public static class Direction2D {
         };
 
     public static Vector2Int GetRandomCardinalDirection() {
-        return cardinalDirectionList[Random.Range(0, cardinalDirectionList.Count)];
+        return cardinalDirectionList[UnityEngine.Random.Range(0, cardinalDirectionList.Count)];
     }
 }

@@ -33,8 +33,8 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
        
        //increasing the size of the corridor
        for (int i = 0; i < corridors.Count; i++) {
-           //corridors[i] = IncreaseCorridorSizeByOne(corridors[i]);
-           corridors[i] = IncreaseCorridorBrush3by3(corridors[i]);
+           corridors[i] = IncreaseCorridorSizeByOne(corridors[i]);
+        //   corridors[i] = IncreaseCorridorBrush3by3(corridors[i]);
            floorPositions.UnionWith(corridors[i]);
         
 

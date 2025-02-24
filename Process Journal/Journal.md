@@ -217,7 +217,7 @@ I also added random colors to bricks
 ![breakout2](Media/breakout2.gif)
 
 
-#### Feburary 19th-20th
+### Feburary 19th-20th
 
 [Procedural excersise](https://github.com/Noe235/CART315/tree/main/Projects/Week%205%20Procedural/Procedural%20Generation)
 I don't really have any idea for expanding on the breakout game from last 
