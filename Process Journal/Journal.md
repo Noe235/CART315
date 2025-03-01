@@ -250,3 +250,23 @@ understood how the generation is created and what it is checking for or how
 it goes along a path.
 
 ![procedural gif2](Media/Procedural2.gif)
+
+
+
+### Febuary 28th
+
+#### possible project idea
+
+I was brainstorming about something I would like to have or could find fun to do.
+I was singing in my car, and I thought about how I didn't know all the lyrics to my song.
+So, I could make an app that can be customized and help remember song lyrics.
+Learning how to make a game on mobile wouldn't be too bad.
+I also think these types of games can be nice time killers while they could be useful too,
+cause that's one of the grips I sometimes have with mobile games.
+Anyway, I was thinking of making it customizable/actually a little dumb where it would just take the words you have given it without even knowing what they are and instead randomize them, which have to be refilled.
+The app would have different learning stages, so drag and drop the word from the first stage to the last,
+where you would have to rewrite it. I was thinking of drag and drop, something similar to Duolingo,
+where it shuffles words, and you sometimes have to put it back in the right order.
+I'm not sure if it would count as a game, but maybe I could modify it to change some level to gamify it more
+
+![Prototype1Project.PNG](Media/Prototype1Project.PNG)
