@@ -268,5 +268,28 @@ The app would have different learning stages, so drag and drop the word from the
 where you would have to rewrite it. I was thinking of drag and drop, something similar to Duolingo,
 where it shuffles words, and you sometimes have to put it back in the right order.
 I'm not sure if it would count as a game, but maybe I could modify it to change some level to gamify it more
+I have lyrics in mind for it right now but I can see it being done with like 
+whatever the person might want learn it as. it's a bit different than clue 
+cards but it can be used that way. There is also the issue that some people 
+rememebr beats to help them memorize the song and that would be mayba bti 
+more complicated for copyright and all. not even counting how do you cute 
+the part of the song at the right time but yeah that is something to also 
+consider. 
+
+Block: fill the empty space with the correct words from a bank <br>
+sentence: you have to write some full sentence from the word bank<br>
+scramble: the lines are scrambles you have to arrange them<br>
+paragraph: the paragraph like verse and chorus are scramble and you have to 
+arrange them<br>
+type all: you have to type all the lyrics<br>
 
 ![Prototype1Project.PNG](Media/Prototype1Project.PNG)
+
+I am thinking of teaming up with some people to make the game but I am not 
+quite sure yet, but I might team up with kat. A roguelike would be kinda 
+cool. I think I'll ask the class how we might fell about this prototype 
+otherwise I'll probably join someone. I want to do a game but I don't want 
+to make a game that requires wayy too many systems. The project timeline is 
+only 4 weeks, or getting a prottype. But the learning game-ish app right now 
+doens't feel like it is very good game project to demonstrate skills. or 
+game making.
