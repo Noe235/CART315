@@ -290,6 +290,27 @@ quite sure yet, but I might team up with kat. A roguelike would be kinda
 cool. I think I'll ask the class how we might fell about this prototype 
 otherwise I'll probably join someone. I want to do a game but I don't want 
 to make a game that requires wayy too many systems. The project timeline is 
-only 4 weeks, or getting a prottype. But the learning game-ish app right now 
+only 4 weeks, or getting a protype. But the learning game-ish app right now 
 doens't feel like it is very good game project to demonstrate skills. or 
 game making.
+
+
+### March 13th 
+teamed up wth Acacia we a doing a sort of tower defense game but not along a 
+specified path so I would say kinda like left 4 dead and Original Fortnite.
+
+Alright here are the link dumps:
+
+[Shared Github Repo](https://github.com/Noe235/CART315FinalProject)
+
+[Google Doc](https://docs.google.com/document/d/1r3TfF7R476a0rbi3PBWWZrRVH3jYj5AJKdqc2FuSl5Q/edit?usp=sharing)
+
+So we are still testing out what the core gameplay will be like and all but 
+I coded some mechanics such as shooting. I followed [this tutorial](https://www.youtube.com/watch?v=T5y7L1siFSY) The blueprint seems pretty 
+easy to modifying and implement as we want.
+![PrototypeFWeek1.gif](Media/PrototypeFWeek1.gif)
+
+Otherwise beforeward, I was thinking of how the game would look like as a 3D 
+enviroment compared to the usual along specified path and 2D.
+![FPfigma.png](Media/FPfigma.png)
+
