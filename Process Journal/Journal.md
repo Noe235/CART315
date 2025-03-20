@@ -235,7 +235,7 @@ I decided on this tutorial series [Procedural generation](https://www.youtube.co
 ![procedural gif](Media/Procedural1.gif)
 
 
-#### Feburary 20th
+### Feburary 20th
 I made a generation with corridors as the turorial continues. Now the 
 corridors are generated and the rooms are added. I started 
 doing a generation based on splitting the zone into rooms to generate rooms 
@@ -253,7 +253,7 @@ it goes along a path.
 
 
 
-### Febuary 28th
+## Febuary 28th
 
 #### possible project idea
 
@@ -314,3 +314,74 @@ Otherwise beforeward, I was thinking of how the game would look like as a 3D
 enviroment compared to the usual along specified path and 2D.
 ![FPfigma.png](Media/FPfigma.png)
 
+
+## March 15-20th
+Weekly Link reminders:
+[Shared Github Repo](https://github.com/Noe235/CART315FinalProject)
+
+[Google Doc](https://docs.google.com/document/d/1r3TfF7R476a0rbi3PBWWZrRVH3jYj5AJKdqc2FuSl5Q/edit?usp=sharing)
+
+
+Thinking a bit more about the upgradable spell and thinking that the fire 
+upgraded to a flamethrower.
+
+[Flame thrower tutorial one](https://www.youtube.com/watch?v=Qu9qIpyoVK8) <br>
+[Flame thower turorial two](https://www.youtube.com/watch?v=IY2K2cOE0R8)
+
+Otherwise change the AI pathing to a state machine and some navmesh with 
+htese turorials
+
+[Navmesh turorial](https://www.youtube.com/watch?v=mJu-zdZ9dyE) <br>
+[State Machine turorial](https://www.youtube.com/watch?v=db0KWYaWfeM)
+
+Looking into dabbling a bit with the inventory as well <br>
+[Recipes objects](https://www.youtube.com/watch?v=E91NYvDqsy8) <br>
+[Drag and drop inventory](https://www.youtube.com/watch?v=kWRyZ3hb1Vc)
+
+Possible Mock up I was thinking 
+![InventoryMockUp.png](Media/InventoryMockUp.png)
+
+### March 19th
+
+Alright so this week's goals:
+- Add Inventory
+  - make UI
+  - find or make physical asset
+  - add crafting window
+- Add Permanent UI
+- add upgrade to spells
+
+I work on all of them
+#### Inventory
+For the inventory I have started the basic one where you would open a window 
+and click on things. Additionally I also have a mockup of what it could feel 
+or look like. This is more a look and feel and the one in unity an 
+implementation.
+![Prototype2-2.gif](Media/Prototype2-2.gif)
+For asset for the UI I have compiled a list of possible free Asset to choose 
+fomr the Unity store. We just have to decide as a team which kind of 
+stylized we want <br>
+[Folder of Assets for Unity Store](https://assetstore.unity.com/lists/cart-315-final-project-possible-3574314563200)
+
+
+#### Pathfinding
+So I changed the simple follow to a state machine and changed the 
+pathfinding to use NavMesh instead. This make it so if we decided to add 
+building and so on, the AI will know that it cannot step on it. So the enemy 
+follow until a certain distance then they go back for the core.
+![Prototype2.gif](Media/Prototype2.gif)
+
+#### Damage and spell
+I finished the enemy health and added that the spell does damage. I can 
+change th value from the variable. I am working on a flamethrower for the 
+final upgrade to the Fire spell.
+
+
+#### The next steps
+- finishing the crafting
+- Add levels to spell
+- Add the pickable
+- making menu UI
+- Implementing all the code together
+- implement the assets? (optional)
+- 
