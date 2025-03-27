@@ -384,4 +384,22 @@ final upgrade to the Fire spell.
 - making menu UI
 - Implementing all the code together
 - implement the assets? (optional)
-- 
+
+## March 27th
+Weekly Link reminders:
+[Shared Github Repo](https://github.com/Noe235/CART315FinalProject)
+
+[Google Doc](https://docs.google.com/document/d/1r3TfF7R476a0rbi3PBWWZrRVH3jYj5AJKdqc2FuSl5Q/edit?usp=sharing)
+
+So I finished doing the inventory and spawning thing into it, so now I just 
+have to attach the script to the object we want to pick up.
+![PrototypeWeek3Spells.gif](Media/PrototypeWeek3Spells.gif)
+![PrototypeWeek3Inventory.gif](Media/PrototypeWeek3Inventory.gif)
+
+I added an Ice spell that is multiple projectile when you click on H for now.
+There is also more damage being done if oyu click on K.
+![PrototypeWeek3Gathering.gif](Media/PrototypeWeek3Gathering.gif)
+
+I think we just have to figure out what kind of crafting we want and than we 
+should be able to put all the script together.
+
