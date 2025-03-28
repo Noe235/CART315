@@ -403,3 +403,12 @@ There is also more damage being done if oyu click on K.
 I think we just have to figure out what kind of crafting we want and than we 
 should be able to put all the script together.
 
+check if i can make other spell or like change the color of the spell.
+maybe look for another spell? depends how hard making that damn flamethrower 
+works or like the crafting
+There is a tiny but for some reaos nwhere if hte stack is full its doens't 
+let me change it slot
+the diffrent spell cna also just be firrent fire rate and damage and colors 
+and all, I cna look at hte tutorial that make the trail different and have a 
+little animation.
+
