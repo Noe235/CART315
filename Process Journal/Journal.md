@@ -412,3 +412,38 @@ the diffrent spell cna also just be firrent fire rate and damage and colors
 and all, I cna look at hte tutorial that make the trail different and have a 
 little animation.
 
+## March 28th - April 3rd
+Weekly Link reminders:
+[Shared Github Repo](https://github.com/Noe235/CART315FinalProject)
+
+[Google Doc](https://docs.google.com/document/d/1r3TfF7R476a0rbi3PBWWZrRVH3jYj5AJKdqc2FuSl5Q/edit?usp=sharing)
+### April 1st
+
+- Finished the "Crafting" and linked with the upgrade spell immediate
+- Merged my branch and Acacia's one
+- Finished upgradings the Ice spell
+- Changed the models on the spells
+- added a UI and wand to tell the player which spell is used
+- connected the scroll wheel to change
+- finished player health to take damage
+- finished flamethrower
+![ProtypeWeek4Spellchange.gif](Media/ProtypeWeek4Spellchange.gif)
+spell change
+
+
+![PrototypeWeek4IceUpgrade.gif](Media/PrototypeWeek4IceUpgrade.gif)
+Ice upgrade/spell upgrade
+
+
+![PrototypeWeek4Crafting.gif](Media/PrototypeWeek4Crafting.gif)
+Crafting/upgrade spell
+
+
+#### Next Task to do tomorrow
+- add a Menu UI
+- Change the UI Assets
+- Make sure the game over resets everything
+- check whatever Acacia adds
+- little bug on the ice upgrade to check
+
+
