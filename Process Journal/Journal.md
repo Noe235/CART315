@@ -446,4 +446,18 @@ Crafting/upgrade spell
 - check whatever Acacia adds
 - little bug on the ice upgrade to check
 
+## April 3rd - 30th
+### Final reflection on the project.
+The last iteration was adjustments to polish the game, including UI details, HP adjustment, and crafting requirements. These last changes help refine the game so that players can enjoy the game loops practically. These could have been done earlier, and we could have done more playtesting, but it still worked out in the end. I know that this is a bit of a dangerous game to play since we were able to adjust, but I can see how if you don't playtest early, it can easily lead to having bigger changes to do further down into a prototype.
+I spread some mushrooms into the environment to be picked up by the player; I changed the visual for the mushrooms to be clearer and the crafting to also describe what they do with words. That is my part done for what I had left to do.
+![FinalIteration.gif](Media/FinalIteration.gif)
+### Overall
+I am satisfied with the final project, as we only had about 3 weeks to work on the project. Our base game loop can be built upon, and it is a really high-fidelity prototype for a possible game. We accomplished all the goals we had set out. The game loop is all implemented; there is a bit of visual to help give a good look and feel to the prototype.
+
+From a coding and learning standpoint, I learned a lot. I understand how unity works for coding and how to try to contain dependencies between files in one way. I learned to use the built-in UI for unity, importing assets, and using the navmesh agent to make the enemies move. I feel confident putting unity as one of my skills with how much I have learned compared to how I started this semester.
+
+Teamwork, I still have to learn a bit to be more clear with words and to learn to talk in less jargon, as even with people in the same field, they might not have the same definition or the same knowledge about terms as I do. But otherwise, it still went fine.
+
+I did not see the other prototypes from the class, but we were ambitious with our prototype and managed to accomplish it. So, I am very satisfied with the class and what I made through the semester.
+Thank you for the semester
 
